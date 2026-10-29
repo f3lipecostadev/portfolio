@@ -10,8 +10,8 @@ export const siteConfig = {
   title: 'Desenvolvedor de Software',
   description:
     'Felipe Costa é desenvolvedor de software em formação, com experiência em aplicações web, integração de APIs e soluções tecnológicas. Portfólio com projetos, experiência e contato.',
-  // Defina NEXT_PUBLIC_SITE_URL na Vercel quando tiver o domínio final.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://felipe-costa.vercel.app',
+  // Para usar outro domínio, defina NEXT_PUBLIC_SITE_URL na Vercel (a variável tem prioridade).
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://portfolio-f3lipe.vercel.app',
   locale: 'pt-BR',
   email: 'f3lipecosta.dev@gmail.com',
   resume: '/curriculo.pdf',
